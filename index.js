@@ -1,4 +1,6 @@
 // Add your functions and code here
+var kittens = ["Milo","Otis","Grafield"]
+
 function destructivelyAppendKitten(name){
   kittens.push(name)
 }
@@ -25,7 +27,7 @@ function appendKitten(name)
 
 function prependKitten(name)
 {
-  return[...kitten,name]
+  return[...kittens,name]
 }
 
 function removeLastKitten()
